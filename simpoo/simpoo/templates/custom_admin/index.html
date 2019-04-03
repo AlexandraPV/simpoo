@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'admin.min.css'  %}">
+</head>
+<body>
+
+<span>Register</span>
+{% include 'custom_admin/includes/header.html' %}
+
+<div class="container">
+    {% block body %}
+    {% endblock %}
+</div>
+<div class="js-popup client-popup hidden">
+        <div class=" fs-style  popup-content" data-action="register">
+            <span class="js-close close">x</span>
+            <h1 class="title-form">Реєстрація</h1>
+            <div class="form-user">
+                {% include 'custom_admin/partials/register_form.html' %}
+            </div>
+            <p class="js-switch switch-form-btn" data-action="login">
+                <span>Вже маєте обліковий запис? </span>
+                <span>Увійти!</span>
+            </p>
+        </div>
+
+
+        <div class="fs-style popup-content hidden" data-action="login">
+            <span class="js-close close">x</span>
+            <h1 class="title-form">Увійти</h1>
+            <div class="form-user">
+                {% include 'custom_admin/partials/login_form.html' %}
+            </div>
+            <p class="js-switch switch-form-btn" data-action="register">
+                <span>Немає облікового запису?</span>
+                <span>Зареєструватись!</span>
+            </p>
+        </div>
+    </div>
+{% include 'custom_admin/includes/footer.html' %}
+<!--<div id="admin_app"></div>-->
+
+
+<script src="{% static 'admin.bundle.js' %}"></script>
+
+<script>
+    ClientApp.auth_user.init();
+    console.log();
+</script>
+</body>
+</html>

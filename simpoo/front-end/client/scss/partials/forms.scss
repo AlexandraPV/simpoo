@@ -1,0 +1,47 @@
+.form-contact-wrap {
+  width: 80%;
+  margin: auto;
+
+  .form-contact-item {
+    position: relative;
+    margin-bottom: 18px;
+
+    input:focus ~ .floating-label,
+    input:not(:focus):valid ~ .floating-label {
+      top: -7px;
+      bottom: 10px;
+      left: 0px;
+      font-size: 12px;
+      opacity: 1;
+    }
+
+    input {
+      transition: border-bottom .25s ease;
+      &:focus {
+        border-bottom: 1px solid black;
+
+      }
+    }
+
+    .inputText {
+      font-size: 14px;
+      height: 35px;
+      border: none;
+      border-bottom: 1px solid #c2c7cd;
+      outline: none;
+      width: 100%;
+    }
+
+
+    .floating-label {
+      position: absolute;
+      pointer-events: none;
+      left: 0px;
+      top: 15px;
+      transition: 0.25s ease all;
+      font-size: 14px;
+      color: #3f3b3b;
+    }
+  }
+}
+

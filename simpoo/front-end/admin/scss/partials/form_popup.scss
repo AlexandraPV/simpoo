@@ -1,0 +1,130 @@
+.client-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+  background: rgba(0, 0, 0, .8);
+  opacity: 1;
+  visibility: visible;
+  transition: 0.15s linear all;
+
+  &.hidden {
+    opacity: 0;
+    visibility: hidden;
+    z-index: -5000;
+  }
+
+  .popup-content {
+    position: absolute;
+    max-width: 400px;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    padding: 25px;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%);
+    transition: 0.25s ease all;
+
+    &.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .close {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      cursor: pointer;
+    }
+
+    .title-form {
+      text-align: center;
+      color: #ffffff;
+      font-size: 21px;
+      font-weight: 300;
+      margin-bottom: 13px;
+    }
+
+    .field-form {
+      width: 100%;
+      margin-bottom: 8px;
+
+      label {
+        color: white;
+        text-transform: capitalize;
+      }
+
+      input {
+        width: 100%;
+        height: 43px;
+        border-radius: 20px;
+        border: 1px solid #1e0045;
+        background-color: #ffffff;
+        padding-left: 5px;
+        box-sizing: border-box;
+        outline: none;
+        //border: 1px solid transparent;
+
+        &.error-field{
+          border: 1px solid red
+        }
+      }
+    }
+
+    .switch-form-btn {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+
+      span {
+        &:first-child {
+          color: #9e9e9e;
+          font-size: 10px;
+          font-weight: 300;
+        }
+        &:last-child{
+          color: white;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+
+      input[type='checkbox'] {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .btn-popup-wrap {
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+}
+
+.form-user {
+  .error {
+    opacity: 1;
+    visibility: visible;
+    color: red;
+
+    &.hidden {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+    }
+  }
+}
+
+
+.fs-style {
+  background: #1A01CC;
+}

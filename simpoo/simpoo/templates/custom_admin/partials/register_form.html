@@ -1,0 +1,24 @@
+<form method="post" id="register_form" action="{% url 'user-register' %}">
+    {% csrf_token %}
+    {% for field in register_form %}
+    <div class="field-form">
+        {% if field.errors %}
+        {% for error in field.errors %}
+        <p style="color: red">{{ error }}</p>
+        {% endfor %}
+        {% endif %}
+        <label for="">{{field.label}}</label>
+        {{ field }}
+    </div>
+    {% endfor %}
+    <div class="checkbox-group">
+        <input class="js-show-pass" id="show_pass" type="checkbox" name="show_password">
+        <label for="show_pass">Показати пароль</label>
+    </div>
+    <span class="js-pass error password-error hidden">Паролі не співпадають!</span>
+    <span class="js-len error length-error hidden">Довжина паролю повинна бути не менше 8 символів!</span>
+    <span class="js-exists error hidden"></span>
+    <div class="btn-popup-wrap">
+        <button class="btn btn-popup">Зареєструватися</button>
+    </div>
+</form>

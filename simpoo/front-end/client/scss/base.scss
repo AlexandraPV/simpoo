@@ -1,0 +1,49 @@
+button, input {
+  outline: none;
+}
+
+button {
+  border: none;
+}
+
+.background {
+  background-image: url('../../images/back_body.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+@media only screen and (max-width: 1920px) {
+  .container {
+    max-width: 1580px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    height: inherit;
+
+    &.wrap-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .container {
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    height: inherit;
+
+    &.wrap-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}
+
+

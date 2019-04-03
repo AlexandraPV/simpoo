@@ -1,0 +1,125 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'client.min.css' %}">
+</head>
+<body class="background">
+
+<section class="full-height" style="background-image: url({% static 'back_main.jpg' %})">
+    <div class="container">
+        <div class="wrapper-full-height">
+            <div class="left-col">
+                <h1 class="main-title">Lorem ipsum dolor sit amet.</h1>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cumque id inventore, molestiae quod
+                    rem ullam vero. Accusamus autem commodi, consectetur consequatur eum exercitationem illum incidunt
+                    ipsam nobis, quasi quibusdam recusandae reiciendis rem soluta suscipit ut voluptates! In, soluta,
+                    vel.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="info-product">
+    <div class="container wrap-info">
+        <div class="left-info">
+            <h2 class="title-info">Lorem ipsum dolor.</h2>
+            <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos iste magni
+                suscipit? Aliquam
+                consectetur consequuntur debitis dolorem eveniet hic molestias natus reprehenderit sed voluptatem? Dicta
+                dolorum quasi quod reiciendis totam? Accusantium aspernatur at beatae dolor ea ipsam, molestiae mollitia
+                nemo obcaecati possimus quia quisquam quod repellat repudiandae saepe tenetur veniam?
+            </p>
+        </div>
+        <div class="right-info">
+            <div class="wrapper-slider">
+                <button class="custom-arrow-prev arrow-slider">
+                    <span> < </span>
+                </button>
+                <div id="right_info_slider" class="slider">
+                    <div class="slider-item" style="background-image: url({% static 'back_main.jpg' %});">&nbsp;</div>
+                    <div class="slider-item" style="background-image: url({% static 'slider2.jpg' %});">&nbsp;</div>
+                    <div class="slider-item" style="background-image: url({% static 'slider3.jpg' %});">&nbsp;</div>
+                    <div class="slider-item" style="background-image: url({% static 'slider4.jpg' %});">&nbsp;</div>
+                    <div class="slider-item" style="background-image: url({% static 'slider5.jpg' %});">&nbsp;</div>
+                </div>
+                <button class="custom-arrow-next arrow-slider">
+                    <span> > </span>
+                </button>
+                <div class="custom-dots"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact ">
+    <div class="grey-line"></div>
+    <div class="container wrap-contact">
+        <div class="left-contact">
+            <div class="contact-info">
+                <h3 class="help_title">Contact us</h3>
+                <p class="help_title">
+                    <span>Tel:</span>
+                    <a href="tel:+38098989889">+38098989889</a>
+                </p>
+                <p class="help_title">
+                    <span>Tel:</span>
+                    <a href="tel:+38098989889">+38098989889</a>
+                </p>
+                <p class="help_title">
+                    <span>Email:</span>
+                    <a href="mailto:tetsttest@gmai.com">tetsttest@gmai.com</a>
+                </p>
+            </div>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4443.94584027464!2d30.456737383044523!3d50.44837569730509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce82b9bc8a47%3A0x47514e5d91216bf3!2sKiev+Polytechnic+Institute!5e0!3m2!1sru!2sua!4v1551872598175"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                <!--<a href="#">-->
+                <!--<img class="contact-logo" src="{% static 'Idalko_logo.jpg' %}" alt="">-->
+                <!--</a>-->
+
+            </div>
+        </div>
+
+        <div class="right-contact">
+            <form action="#">
+                <div class="form-contact-wrap">
+                    <div class="form-contact-item">
+                        <input type="text" class="inputText" required/>
+                        <span class="floating-label">ФИО:</span>
+                    </div>
+                    <div class="form-contact-item">
+                        <input type="text" class="inputText" required/>
+                        <span class="floating-label">Tелефон:</span>
+                    </div>
+                    <div class="form-contact-item">
+                        <input type="text" class="inputText" required/>
+                        <span class="floating-label">Тема:</span>
+                    </div>
+                    <div class="form-contact-item">
+                        <!--<textarea name="" id="" cols="30"  class="inputText-textarea" rows="10"></textarea>-->
+                        <input type="text" class="inputText" required/>
+                        <span class="floating-label">Сообщение:</span>
+                    </div>
+                    <div class="btn-wrap">
+                        <button class="form-btn">Отправить</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</section>
+
+<script src="{% static 'client.bundle.js' %}"></script>
+
+<script>
+    App.template_one.slick_slider();
+</script>
+</body>
+</html>
