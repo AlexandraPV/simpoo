@@ -20,7 +20,9 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^11.2.0",
     "axios": "^0.18.0",
+    "flickity": "^2.2.0",
     "jquery": "^3.3.1",
+    "jquery-bridget": "^2.0.1",
     "js-cookie": "^2.2.0",
     "node-sass": "^4.10.0",
     "package.json": "^2.0.1",

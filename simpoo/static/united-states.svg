@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="enable-background:new 0 0 496 496;" xml:space="preserve" width="496" height="341.16129151343307"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/> <g class="currentLayer" style=""><title>Layer 1</title><g id="svg_1" class="" transform=""><path style="fill:#FFFFFF;" d="M 496 292.181 c 0 27.2 -21.6 48.8 -48 48.8 H 48 c -26.4 0 -48 -21.6 -48 -48.8 V 48.9806 c 0 -27.2 21.6 -43.8 48 -43.8 h 400 c 26.4 0 48 16.6 48 43.8 V 292.181 Z" data-original="#FFFFFF" class="" id="svg_2" transform=""/><path style="fill:#CCE4E5;" d="M 448 0.180641 H 48 l 400 340.8 c 26.4 0 48 -21.6 48 -48.8 V 48.9806 C 496 21.7806 474.4 0.180641 448 0.180641 Z" data-original="#CCE4E5" id="svg_3" transform=""/><path style="fill:#AED3D3;" d="M 448 0.180641 H 48 l 448 137.6 v -88.8 C 496 21.7806 474.4 0.180641 448 0.180641 Z" data-original="#AED3D3" id="svg_4" transform=""/><g id="svg_5" transform="">
+	<path style="fill:#B22234;" d="M 4.9 313.781 c 7.5 15.4 22.7 26.2 40.5 27.1 c 0.9 0 1.7 0.1 2.6 0.1 h 400.3 c 0 0 3.5 -0.3 4.6 -0.7 c 1.7 -0.6 1.9 -2 0.6 -3.1 l -0.4 -0.4 L 426 313.681 H 4.9 V 313.781 Z" data-original="#B22234" id="svg_6" transform=""/>
+	<polygon style="fill:#B22234;" points="120.9 53.7806 0 53.7806 0 79.7806 151.4 79.7806" data-original="#B22234" id="svg_7" transform=""/>
+	<polygon style="fill:#B22234;" points="181.9 105.781 0 105.781 0 131.781 212.5 131.781" data-original="#B22234" id="svg_8" transform=""/>
+	<polygon style="fill:#B22234;" points="242.8 157.781 0 157.781 0 184.181 273.2 184.181" data-original="#B22234" id="svg_9" transform=""/>
+	<polygon style="fill:#B22234;" points="303.6 209.781 0 209.781 0 236.181 334.8 236.181" data-original="#B22234" id="svg_10" transform=""/>
+	<polygon style="fill:#B22234;" points="373.4 268.881 365 261.781 0 261.781 0 288.181 395.6 288.181" data-original="#B22234" id="svg_11" transform=""/>
+</g><path style="fill:#FFFFFF;" d="M 48 340.981 c -0.9 0 -1.7 0 -2.6 -0.1 C 46.3 340.981 47.1 340.981 48 340.981 Z" data-original="#FFFFFF" class="" id="svg_12" transform=""/><g id="svg_13" transform="">
+	<polygon style="fill:#8C1126;" points="238.4 53.7806 110.9 53.7806 141.4 79.7806 323.2 79.7806" data-original="#8C1126" id="svg_14" transform=""/>
+	<polygon style="fill:#8C1126;" points="202.5 131.781 488.5 131.781 403.8 105.781 171.9 105.781" data-original="#8C1126" id="svg_15" transform=""/>
+	<polygon style="fill:#8C1126;" points="264 184.181 496 184.181 496 157.781 233 157.781" data-original="#8C1126" id="svg_16" transform=""/>
+	<polygon style="fill:#8C1126;" points="325 236.181 496 236.181 496 209.781 294 209.781" data-original="#8C1126" id="svg_17" transform=""/>
+	<polygon style="fill:#8C1126;" points="363.4 268.881 386 288.181 496 288.181 496 261.781 355.2 261.781" data-original="#8C1126" id="svg_18" transform=""/>
+</g><g id="svg_19" transform="">
+	<polygon style="fill:#5B0218;" points="222.5 53.7806 286 73.2806 307.2 79.7806 496 79.7806 496 53.7806" data-original="#5B0218" id="svg_20" transform=""/>
+	<polygon style="fill:#5B0218;" points="392 105.781 476.8 131.781 496 131.781 496 105.781" data-original="#5B0218" id="svg_21" transform=""/>
+	<path style="fill:#5B0218;" d="M 486.4 19.6806 c -1.4 -1.9 -2.9 -3.6 -4.5 -5.3 c -8.1 -8.2 -19.1 -13.5 -31.3 -14.1 c -0.8 0 -1.7 -0.1 -2.5 -0.1 l 0 0 H 48 c -13.1 0 -25.5 5.9 -34.4 14.7 c -3.5 3.7 -6.5 7.9 -8.7 12.5 h 75 h 56.6 H 491 C 489.8 24.6806 488.2 22.0806 486.4 19.6806 Z" data-original="#5B0218" id="svg_22" transform=""/>
+</g><path style="fill:#8C1126;" d="M 491.1 313.781 h -75 l 31.9 27.2 C 466.8 340.981 483.2 329.981 491.1 313.781 Z" data-original="#8C1126" id="svg_23" transform=""/><path style="fill:#3C3B6E;" d="M 0 48.9806 v 134.4 h 215.2 V 0.180641 H 44.8 C 20 1.78064 0 22.5806 0 48.9806 Z" data-original="#3C3B6E" id="svg_24" transform=""/><polygon style="fill:#1E1E44;" points="215.2 142.581 215.2 0.180641 48 0.180641" data-original="#1E1E44" id="svg_25" transform=""/><polygon points="215.2 51.3806 215.2 0.180641 48 0.180641" data-original="#000000" class="active-path" style="fill:#000000" id="svg_26" transform=""/><g id="svg_27" transform="">
+	<polygon style="fill:#FFFFFF;" points="60.8 18.5806 64 8.18064 68 18.5806" data-original="#FFFFFF" class="" id="svg_28" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="104 18.5806 107.2 8.18064 110.4 18.5806" data-original="#FFFFFF" class="" id="svg_29" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="146.4 18.5806 150.4 8.18064 153.6 18.5806" data-original="#FFFFFF" class="" id="svg_30" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="189.6 18.5806 192.8 8.18064 196.8 18.5806" data-original="#FFFFFF" class="" id="svg_31" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="39.2 36.9806 43.2 26.5806 46.4 36.9806" data-original="#FFFFFF" class="" id="svg_32" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="82.4 36.9806 85.6 26.5806 89.6 36.9806" data-original="#FFFFFF" class="" id="svg_33" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="125.6 36.9806 128.8 26.5806 132 36.9806" data-original="#FFFFFF" class="" id="svg_34" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="168 36.9806 171.2 26.5806 175.2 36.9806" data-original="#FFFFFF" class="" id="svg_35" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="18.4 55.3806 21.6 44.9806 24.8 55.3806" data-original="#FFFFFF" class="" id="svg_36" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="60.8 55.3806 64 44.9806 68 55.3806" data-original="#FFFFFF" class="" id="svg_37" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="104 55.3806 107.2 44.9806 110.4 55.3806" data-original="#FFFFFF" class="" id="svg_38" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="146.4 55.3806 150.4 44.9806 153.6 55.3806" data-original="#FFFFFF" class="" id="svg_39" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="189.6 55.3806 192.8 44.9806 196.8 55.3806" data-original="#FFFFFF" class="" id="svg_40" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="40 73.7806 43.2 63.3806 47.2 73.7806" data-original="#FFFFFF" class="" id="svg_41" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="83.2 73.7806 86.4 63.3806 89.6 73.7806" data-original="#FFFFFF" class="" id="svg_42" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="125.6 73.7806 129.6 63.3806 132.8 73.7806" data-original="#FFFFFF" class="" id="svg_43" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="168.8 73.7806 172 63.3806 175.2 73.7806" data-original="#FFFFFF" class="" id="svg_44" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="18.4 91.3806 22.4 80.9806 25.6 91.3806" data-original="#FFFFFF" class="" id="svg_45" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="61.6 91.3806 64.8 80.9806 68.8 91.3806" data-original="#FFFFFF" class="" id="svg_46" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="104.8 91.3806 108 80.9806 111.2 91.3806" data-original="#FFFFFF" class="" id="svg_47" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="147.2 91.3806 151.2 80.9806 154.4 91.3806" data-original="#FFFFFF" class="" id="svg_48" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="190.4 91.3806 193.6 80.9806 196.8 91.3806" data-original="#FFFFFF" class="" id="svg_49" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="40 109.781 43.2 99.3806 47.2 109.781" data-original="#FFFFFF" class="" id="svg_50" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="83.2 109.781 86.4 99.3806 89.6 109.781" data-original="#FFFFFF" class="" id="svg_51" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="125.6 109.781 129.6 99.3806 132.8 109.781" data-original="#FFFFFF" class="" id="svg_52" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="168.8 109.781 172 99.3806 176 109.781" data-original="#FFFFFF" class="" id="svg_53" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="19.2 128.181 22.4 117.781 25.6 128.181" data-original="#FFFFFF" class="" id="svg_54" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="62.4 128.181 65.6 117.781 68.8 128.181" data-original="#FFFFFF" class="" id="svg_55" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="104.8 128.181 108 117.781 112 128.181" data-original="#FFFFFF" class="" id="svg_56" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="148 128.181 151.2 117.781 154.4 128.181" data-original="#FFFFFF" class="" id="svg_57" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="190.4 128.181 194.4 117.781 197.6 128.181" data-original="#FFFFFF" class="" id="svg_58" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="40 146.581 43.2 135.381 47.2 146.581" data-original="#FFFFFF" class="" id="svg_59" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="83.2 146.581 86.4 135.381 89.6 146.581" data-original="#FFFFFF" class="" id="svg_60" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="125.6 146.581 129.6 135.381 132.8 146.581" data-original="#FFFFFF" class="" id="svg_61" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="168.8 146.581 172 135.381 175.2 146.581" data-original="#FFFFFF" class="" id="svg_62" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="18.4 164.181 22.4 153.781 25.6 164.181" data-original="#FFFFFF" class="" id="svg_63" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="61.6 164.181 64.8 153.781 68 164.181" data-original="#FFFFFF" class="" id="svg_64" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="104 164.181 108 153.781 111.2 164.181" data-original="#FFFFFF" class="" id="svg_65" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="147.2 164.181 150.4 153.781 154.4 164.181" data-original="#FFFFFF" class="" id="svg_66" transform=""/>
+	<polygon style="fill:#FFFFFF;" points="190.4 164.181 193.6 153.781 196.8 164.181" data-original="#FFFFFF" class="" id="svg_67" transform=""/>
+</g></g></g></svg>

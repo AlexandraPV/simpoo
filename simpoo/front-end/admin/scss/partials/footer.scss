@@ -1,0 +1,154 @@
+footer {
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+
+  .footer_wrap {
+    background-color: #365558;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+
+
+    .local {
+      width: 40%;
+
+      .flags {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+      }
+
+      h4 {
+        font-size: 18px;
+        color: #e8e4e4;
+      }
+
+      img {
+        width: 40px;
+        border-radius: 4px;
+
+      }
+
+      img:hover {
+        box-shadow: 0px 0px 4px 1px rgba(230, 234, 234, 0.5);
+      }
+    }
+
+    .social {
+      width: 40%;
+
+      h4 {
+        font-size: 18px;
+        color: #e8e4e4;
+      }
+
+      .social_link {
+        margin-top: 10px;
+
+
+      }
+
+      .soc {
+        padding-right: 8px;
+
+        svg {
+          circle, path {
+            fill: #E6EAEA;
+          }
+        }
+
+        &:hover {
+          svg {
+            circle, path {
+              fill: #D94F5C;
+            }
+
+          }
+        }
+
+
+      }
+
+    }
+
+    .contact {
+      width: 15%;
+
+      .con {
+        display: flex;
+        margin-top: 10px;
+      }
+
+      h4 {
+        font-size: 18px;
+        color: #e8e4e4;
+      }
+
+      a {
+        margin-left: 9px;
+        font-size: 16px;
+        color: #e8e4e4;
+      }
+
+      a:hover {
+        color: #D94F5C;
+      }
+    }
+  }
+
+  .down_footer {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #213233;
+    padding: 10px 40px;
+
+    .privacy {
+
+      p {
+        font-size: 14px;
+        color: #989696;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+  footer .footer_wrap {
+    justify-content: center;
+
+
+    .local, .social {
+      width: 35%;
+
+      .flags {
+        width: 60%;
+      }
+    }
+
+    .contact {
+      width: 20%;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  footer .footer_wrap {
+    padding: 25px 0px;
+    padding-right: 25px;
+  }
+}

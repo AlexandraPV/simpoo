@@ -5,44 +5,256 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="{% static 'admin.min.css'  %}">
 </head>
 <body>
 
-<span>Register</span>
+<!--<span>Register</span>-->
 {% include 'custom_admin/includes/header.html' %}
 
 <div class="container">
     {% block body %}
+    <section class="first_wrap">
+
+        <div class="left_cont">
+            <h1>
+                What is Simpoo?
+            </h1>
+            <h2>
+                The Platform where you can very simple create your own advertising card or full one-page website!
+            </h2>
+            <div class="butt_main">
+                <a href="#">Let's try</a>
+            </div>
+
+        </div>
+        <div class="right_cont">
+
+            <div class="cube">
+                <div class="border"></div>
+                <div class="back side"></div>
+                <div class="left side"></div>
+                <div class="right side"></div>
+                <div class="top side"></div>
+                <div class="bottom side"></div>
+                <div class="front side"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="second_wrap">
+        <h1>
+            How it works
+        </h1>
+
+        <div class="about_wrap">
+            <div class="about_block">
+                <div class="img_block img1">
+                </div>
+                <div class="text_block">
+                    <h1> 1 </h1>
+                    <h3>
+                        Sign in on Simpoo and starting work with this Platform
+                    </h3>
+                </div>
+            </div>
+            <div class="arrow">
+
+            </div>
+            <div class="about_block">
+                <div class="img_block img2">
+                </div>
+                <div class="text_block">
+                    <h1> 2 </h1>
+                    <h3>
+                        Choose one of the beautiful templates you like.
+                    </h3>
+                </div>
+            </div>
+            <div class="arrow">
+
+            </div>
+            <div class="about_block">
+                <div class="img_block img3">
+                </div>
+                <div class="text_block">
+                    <h1> 3 </h1>
+                    <h3>
+                        Edit the template at your discretion,
+                        add information and choose plugins that
+                        will make your site more convenient and
+                        informative
+                    </h3>
+                </div>
+            </div>
+            <div class="arrow">
+
+            </div>
+            <div class="about_block">
+                <div class="img_block img4">
+                </div>
+                <div class="text_block">
+                    <h1> 4 </h1>
+                    <h3>
+                        Enjoy the result! Share a link
+                        to it in social networks! Let
+                        the whole world know about you!
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="third_wrap">
+        <h1>What categories of templates are you interested in?</h1>
+        <div class="info_category">
+            <div class="col_category">
+                <ul class="list_category">
+                    <li>FASHION & BEAUTY</li>
+                    <li>SPORTS</li>
+                    <li>TRAVEL</li>
+                    <li>DESIGN & PHOTOGRAPHY</li>
+                    <li>CARS & MOTORCYCLES</li>
+                    <li>MEDICAL HEALTHCARE</li>
+                </ul>
+            </div>
+            <div class="col_category">
+                <ul class="list_category">
+                    <li>EDUCATION & BOOKS</li>
+                    <li>HOLIDAYS, GIFTS & FLOWERS</li>
+                    <li>PET ANIMALS</li>
+                    <li>ELECTRONICS REPAIR</li>
+                    <li>ART & CULTURE</li>
+                    <li>REAL ESTATE</li>
+                </ul>
+            </div>
+            <div class="col_category">
+                <ul class="list_category">
+                    <li>ENTERTAINMENT & GAMES</li>
+                    <li>FOOD & RESTAURANT</li>
+                    <li>COMPUTERS & INTERNET</li>
+                    <li>SOCIETY & PEOPLE</li>
+                    <li>HOME & FAMILY</li>
+                    <li>BUSINESS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourth_wrap">
+        <h1>
+            Templates
+        </h1>
+        <div class="slider_temp">
+            <div class="slide--parent">
+                <div class="parent--el">
+                    <div class="two--col">
+                        <div class="is-item has--img">
+                            <figure class="the-img">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/602471/jake-ingle-168726%20copy.jpg"
+                                     alt="">
+                            </figure>
+                        </div>
+                        <div class="is-item has--content">
+                            <div class="is-item--inner">
+                                <h1><span>EXPLORE</span></h1>
+                                <small>Escape The City</small>
+                                <hr>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quidem delectus laborum
+                                    itaque alias, officiis laborum laborum illum voluptates est et voluptas?</p>
+                                <p>Sed quidem delectus laborum itaque laborum alias, officiis illum voluptates est et
+                                    voluptas?</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quidem delectus laborum
+                                    itaque alias, officiis illum voluptates est et voluptas?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parent--el">
+                    <div class="two--col">
+                        <div class="is-item has--img">
+                            <figure class="the-img">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/602471/lee-campbell-512447%20copy.jpg"
+                                     alt="">
+                            </figure>
+                        </div>
+                        <div class="is-item has--content">
+                            <div class="is-item--inner">
+                                <h1><span>Supper sport</span></h1>
+                                <small>Sport</small>
+                                <hr>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quidem delectus laborum
+                                    itaque alias, officiis laborum laborum illum voluptates est et voluptas?</p>
+                                <p>Sed quidem delectus laborum itaque laborum alias, officiis illum voluptates est et
+                                    voluptas?</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quidem delectus laborum
+                                    itaque alias, officiis illum voluptates est et voluptas?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="fifth_wrap">
+        <div class="left_cont">
+            <h1>
+                Why wait any longer?
+            </h1>
+            <h2>
+                Create in minutes your unique template and enjoy the flow of customers!
+            </h2>
+
+        </div>
+        <div class="right_container">
+
+            <div class="butt_main">
+                <a href="#">Let's try</a>
+            </div>
+        </div>
+
+
+    </section>
     {% endblock %}
 </div>
+
 <div class="js-popup client-popup hidden">
-        <div class=" fs-style  popup-content" data-action="register">
-            <span class="js-close close">x</span>
-            <h1 class="title-form">Реєстрація</h1>
-            <div class="form-user">
-                {% include 'custom_admin/partials/register_form.html' %}
-            </div>
-            <p class="js-switch switch-form-btn" data-action="login">
-                <span>Вже маєте обліковий запис? </span>
-                <span>Увійти!</span>
-            </p>
+    <div class=" fs-style  popup-content" data-action="register">
+        <span class="js-close close">x</span>
+        <h1 class="title-form">Реєстрація</h1>
+        <div class="form-user">
+            {% include 'custom_admin/partials/register_form.html' %}
         </div>
-
-
-        <div class="fs-style popup-content hidden" data-action="login">
-            <span class="js-close close">x</span>
-            <h1 class="title-form">Увійти</h1>
-            <div class="form-user">
-                {% include 'custom_admin/partials/login_form.html' %}
-            </div>
-            <p class="js-switch switch-form-btn" data-action="register">
-                <span>Немає облікового запису?</span>
-                <span>Зареєструватись!</span>
-            </p>
-        </div>
+        <p class="js-switch switch-form-btn" data-action="login">
+            <span>Вже маєте обліковий запис? </span>
+            <span>Увійти!</span>
+        </p>
     </div>
+
+
+    <div class="fs-style popup-content hidden" data-action="login">
+        <span class="js-close close">x</span>
+        <h1 class="title-form">Увійти</h1>
+        <div class="form-user">
+            {% include 'custom_admin/partials/login_form.html' %}
+        </div>
+        <p class="js-switch switch-form-btn" data-action="register">
+            <span>Немає облікового запису?</span>
+            <span>Зареєструватись!</span>
+        </p>
+    </div>
+</div>
 {% include 'custom_admin/includes/footer.html' %}
 <!--<div id="admin_app"></div>-->
 
@@ -51,6 +263,7 @@
 
 <script>
     ClientApp.auth_user.init();
+    ClientApp.home.init();
     console.log();
 </script>
 </body>

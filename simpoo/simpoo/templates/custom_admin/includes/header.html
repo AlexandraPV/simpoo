@@ -1,7 +1,29 @@
+{% load static %}
 <header>
-   {% if request.user.is_authenticated %}
-                 <a href="{% url 'user-logout' %}">Вийти {{ request.user.username }}</a>
-            {% else %}
-                <a class="js-auth-show header-icon user-icon">log in</a>
-            {% endif %}
+    <div class="head_wrap">
+
+        <nav class="nav_elem">
+            <div class="logo">
+                <a href="/"><img src="{% static 'logo_simpoo.png' %}" alt=""></a>
+            </div>
+            <button class="mobile-header js-mobile-menu">Menu</button>
+            <ul class="menu_ul" id="menu">
+                <!--<li><a href="#!">Головна</a></li>-->
+                <li><a class="link-item" href="#!">About us</a></li>
+                <li><a class="link-item" href="#!">Advertisement</a></li>
+                <li><a class="link-item" href="#!">Top Rating</a></li>
+                <li><a class="link-item" href="#!">Testimonials</a></li>
+            </ul>
+{% if request.user.is_authenticated %}
+
+                <a class="personal_info" href="{% url 'user-logout' %}">Log out {{ request.user.username }}<img
+                        src="{% static 'log-out.svg' %}" alt=""></a>
+                {% else %}
+                <a class="personal_info js-auth-show header-icon user-icon">Log in <img src="{% static 'in.svg' %}" alt=""></a>
+                {% endif %}
+        </nav>
+    </div>
+
 </header>
+
+
